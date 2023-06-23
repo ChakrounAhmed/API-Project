@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  background-color: rgb(223, 230, 235);
+}
+.contain_head {
+  display: flex;
+  justify-content: center;
+}
+
+.App-header {
+  padding: 20px;
+  color: rgb(195, 25, 25);
+  font-size: 30px;
+  width: 50%;
+}
+.App-header:hover {
+  cursor: pointer;
+  filter: blur(0.7px);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.userDetails {
+  color: white;
+  background-color: #282c34;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.userDetails:hover {
+  background-color: #f5f5f5;
+  color: #282c34;
+  cursor: pointer;
+}
+
+.userDetails h1,
+.userDetails h2,
+.userDetails h3 {
+  margin: 0;
+}
+
+.userDetails h1 {
+  font-size: 18px;
+}
+
+.userDetails h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.userDetails h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 5px;
+}
